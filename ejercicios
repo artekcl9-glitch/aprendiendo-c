@@ -1,0 +1,32 @@
+Nivel básico (operadores + printf/scanf)
+
+1. Pide dos números y muestra suma, resta, multiplicación, división y módulo.
+2. Pide el radio de un círculo (float) y calcula área y perímetro.
+3. Conversor de temperatura: Celsius a Fahrenheit y viceversa (que el usuario elija con un número: 1 o 2).
+4. Pide el precio de un producto y un porcentaje de descuento, muestra el precio final.
+
+Nivel if/else
+5. Pide un número y di si es par o impar.
+6. Pide tres números y muestra cuál es el mayor (con if/else if/else, sin usar funciones de librería).
+7. Calculadora de notas: pide una nota (0-7) y muestra si es "Reprobado", "Aprobado" o "Distinción" según rangos.
+8. Pide un carácter (char) y di si es vocal o consonante.
+9. Año bisiesto: pide un año y determina si es bisiesto (divisible por 4, pero no por 100 salvo que sea divisible por 400).
+
+Nivel for/while (bucles)
+10. Tabla de multiplicar: pide un número y muestra su tabla del 1 al 10 usando for.
+11. Suma de los primeros N números naturales (pide N, usa for o while).
+12. Contador de pares e impares entre 1 y N.
+13. Calcula el factorial de un número usando for.
+14. Muestra si un número es primo (usa for para probar divisores).
+15. Invierte un número (ej: 1234 → 4321) usando while y operadores % y /.
+16. Pide números uno por uno hasta que el usuario ingrese un 0, y al final muestra cuántos ingresó y su suma/promedio.
+
+Nivel combinado (mini-proyectos)
+17. Adivina el número: el programa "piensa" un número fijo (ej. 42) y el usuario va adivinando con scanf; el programa dice "más alto" o "más bajo" hasta que acierte (usa while).
+18. Menú simple: muestra opciones (1. Sumar, 2. Restar, 3. Salir) con printf, el usuario elige con scanf, y repite el menú con un while hasta que elija salir.
+19. Conversor de calificación numérica a letra (A, B, C, D, F) usando if/else if.
+20. Genera la pirámide de asteriscos usando for anidados:
+*
+**
+***
+****
