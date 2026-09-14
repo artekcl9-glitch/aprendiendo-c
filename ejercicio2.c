@@ -10,14 +10,14 @@ int main(){
 	scanf("%i",&r);
 
 	printf("indique que quiere calcular:\n1.-Area=A\n2.-Perimetro=P \n");
-	scanf("%c",&esp);
+	scanf(" %c",&esp);
 
 	if(esp == 'A'){
 		re = PI*(r*r);
-		printf("El Area del circulo es: %f",re);
+		printf("El Area del circulo es: %f\n",re);
 	}else if(esp == 'P'){
 		re = 2*PI*r;
-		printf("El Perimetro del circulo es: %f ",re);
+		printf("El Perimetro del circulo es: %f\n",re);
 	}
 
 	getchar();
